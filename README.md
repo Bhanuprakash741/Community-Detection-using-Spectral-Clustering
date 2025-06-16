@@ -28,12 +28,9 @@ docs/
 | **Les Misérables** | 3   | 0.562      | 0.69 / 0.65     | Clusters align with protagonist-centric sub-plots. |
 
 ✅ Findings
-Spectral clustering perfectly separates the two factions in the Karate Club except for node 3, echoing Zachary’s 1977 study 
-For Les Misérables the three-way split groups Valjean-centric, Paris-revolutionary, and peripheral characters, mirroring thematic arcs in the novel.
-Strengths: handles non-convex clusters, works directly on similarity matrices, unsupervised 
-Limitations: cubic eigen-decomposition cost; requires choosing k; sensitive to noisy edges
+ Spectral clustering perfectly separates the two factions in the Karate Club except for node 3, echoing Zachary’s 1977 study 
+ For Les Misérables the three-way split groups Valjean-centric, Paris-revolutionary, and peripheral characters, mirroring thematic arcs in the novel.
+ Strengths: handles non-convex clusters, works directly on similarity matrices, unsupervised 
+ Limitations: cubic eigen-decomposition cost; requires choosing k; sensitive to noisy edges
 
-🛠 To Reproduce
-Place edge list or GML file in data/.
-Run spectral_cluster.py --graph <file> --k <clusters> – this writes NumPy labels to outputs.
-Use plot_results.py to colour the network or draw the scree plot.
+
