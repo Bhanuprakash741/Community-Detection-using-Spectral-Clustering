@@ -14,12 +14,8 @@ Zachary’s Karate Club • Les Misérables Co-appearance
 | **Visualisation** | Drew networks with node colour = cluster id; plotted eigen-value scree and silhouette scores. :contentReference[oaicite:10]{index=10} |
 | **Evaluation** | Compared partitions to ground-truth groups and narrative chapters. |
 
----
 
-docs/
-  karate_clusters.png
-  lesmis_clusters.png
-  eig_scree.png
+
   
 📈 Results
 | Dataset            | *k* | Modularity | NMI / ARI       | Notes                                              |
